@@ -1,0 +1,9 @@
+.challenges {
+    text-align: center;
+    font-size: large;
+    color: dodgerblue;
+    font-family: "Andale Mono";
+    max-height: 60vh;
+    overflow-y: scroll;
+    margin-top: 50px;
+}

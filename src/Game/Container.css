@@ -1,0 +1,190 @@
+.row {
+    color: tomato;
+    flex: 1;
+    border: 3px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.square {
+    background-color: floralwhite;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    border-style: solid;
+    border-width: 4px;
+    border-color: dodgerblue;
+    user-select: none;
+    cursor: pointer;
+    position: relative;
+
+}
+
+.game-info {
+    margin-left: 30px;
+}
+
+/* something with class piece-image with parent square */
+.square .piece-image {
+    margin: 3px;
+    height: calc(100% - 5px);
+    width: calc(100% - 5px);
+    /*background-color: #ceffee;*/
+    /*line-height: 1;*/
+    text-align: center;
+}
+
+.square:hover .piece-image {
+    /*background-color: aquamarine;*/
+}
+
+.square .piece-menu {
+    display: none;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    height: 16px;
+}
+
+.square:hover .piece-menu {
+    display: inline;
+}
+
+.square .piece-menu .menu-button {
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 16px;
+    position: relative;
+    text-align: center;
+    background-color: rgba(123,104,238,0.75);
+    height: 16px;
+    color: white;
+    float: left;
+    width: 50%;
+
+}
+
+.popup-instructions {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.popup-overlay{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: rgba(0,0,0, 0.5);
+    cursor: pointer;
+}
+
+.popup_inner {
+    position: absolute;
+    left: 25%;
+    right: 25%;
+    top: 25%;
+    bottom: 25%;
+    margin: auto;
+    background: white;
+    border-radius: 5px;
+    overflow-y: scroll;
+    padding: 16px;
+
+}
+
+.instructions-exit {
+    border-radius: 5px;
+    position: absolute;
+    top: -30px;
+    right: 0;
+}
+
+.instructions-title {
+    text-align: center;
+    color: dodgerblue;
+    font-family: "Andale Mono";
+}
+
+.sub-title {
+    font-family: "Andale Mono";
+}
+
+.instructions-image {
+    margin: 5px;
+    height: 50px;
+    width: 50px;
+}
+
+.instructions-image-desc {
+    color: black;
+}
+
+.instructions-setup {
+    color: black;
+}
+
+.game-buttons {
+    border-radius: 5px;
+    background-color: whitesmoke;
+}
+
+.game-buttons-laser {
+    border-radius: 5px;
+    background-color: #e23e4a;
+    color: white;
+}
+
+.buttons-info {
+    padding: 10px;
+    text-align: center;
+}
+
+.game-title {
+    text-align: center;
+    font-size: xx-large;
+    color: dodgerblue;
+    font-family: "Andale Mono";
+}
+
+.game-info {
+    padding: 10px;
+    text-align: center;
+    font-family: "Andale Mono";
+    font-size: large;
+}
+
+.game-pieces {
+    align-content: center;
+    background-color: #e8e8e8;
+    width: 90vw;
+    height: 120px;
+    margin: 20px 5vw;
+    overflow-x: scroll;
+}
+
+.game-pieces > div{
+    float: left;
+    margin: 8px;
+}
+
+.sidebar {
+    padding: 40px;
+}
+
+.instructions-laser-desc {
+    align-content: center;
+}

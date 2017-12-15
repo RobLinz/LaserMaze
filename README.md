@@ -17,8 +17,8 @@ To run the app, first clone the repo. You will need two terminal windows open. F
 
 This project was coded entirely using ReactJS, a Javascript framework I was previously not familiar with. Here I used the fact that in React the display is constantly a function of the state of the data to design the implimentation for this (in my opinion, very fun!) brain teaser! If you play the game, let me know what you think. 
 
-I enjoyed tackling the challenges presented to me in the design of the game and animation fo the laser. I look forward to working on many more projects using this framework!
+I enjoyed tackling the challenges presented to me in the design of the game and animation fo the laser. I look forward to working on many more projects using this framework:) 
 
-Huge thanks to my mentor Eliot Padzensky who had the patience during college finals sesason to entertain teaching me fundamentals (and more complex characteristics) of ReactJS. 
+Huge thanks to my friend Eliot Padzensky who had the patience during college finals sesason to entertain teaching me fundamentals (and more complex characteristics) of ReactJS! 
 
 

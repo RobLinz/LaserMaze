@@ -1,5 +1,5 @@
 ## GENERAL ##
-Robin Linzmayer, Decmeber 2017
+Robin Linzmayer, Decemeber 2017
 
 ## SUMMARY ##
 

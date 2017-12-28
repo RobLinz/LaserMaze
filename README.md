@@ -1,10 +1,6 @@
 ## GENERAL ##
 Robin Linzmayer, Decemeber 2017
 
-## SUMMARY ##
-
-This was a project create using React, Node.js, and R. This project was our hack created along the lines of the HealthTech theme and meant to democratize public health data that is available online but not accessible to the everyday community member. This hack won "Best Big Open Data Hack" and "Best Hack Addressing Socioeconomic Health Disparities".
-
 ## USAGE ##
 
 First you will need to have NodeJS and Yarn installed on your local machine. You can find these packages here: 
